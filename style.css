@@ -5190,8 +5190,8 @@ i.fas.fa-calendar {
 }
 
 .contact-area .contact-items .content button {
-  background: #ffffff;
-  color: #da2c23;
+  background: #da2c23;
+  color: #ffffff;
   border: none;
   padding: 15px 40px;
   text-transform: uppercase;
@@ -5664,7 +5664,7 @@ footer.demo .copyright {
 /* Years */
 .excellence-text {
   color: #da2c23;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -5681,7 +5681,7 @@ footer.demo .copyright {
 
   /* Positioning to make it half inside and half outside the footer */
   position: absolute;
-  top: -700%; /* Move it half above the footer */
+  top: -710%; /* Move it half above the footer */  
   left: 45%; /* Center it horizontally */
   transform: translateX(-50%);
   z-index: 10; /* Ensure it appears above other elements */
@@ -5727,7 +5727,7 @@ footer.demo .copyright {
   .number-gif {
     width: 600px; /* Adjust size for tablets */
     height: 200px;
-    top: -620%; /* Adjust positioning */
+    top: -630%; /* Adjust positioning */
     left: 45%; /* Center it */
   }
 
@@ -6016,7 +6016,7 @@ footer.demo .copyright {
 
 .company-name {
   font-size: 35px; 
-  color: red;
+  color: #ffffff;
 }
 
 .company-name .red {
@@ -6025,7 +6025,7 @@ footer.demo .copyright {
 
 .tagline {
   font-size: 14px;
-  color: red;
+  color: #ffffff;
   font-weight: normal;
   letter-spacing: 1px;
 }
@@ -6201,7 +6201,7 @@ footer.demo .copyright {
   background: #da2c23; /* Red button background */
   color: #fff; /* White text */
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s ease-in-out, transform 0.2s;
@@ -6212,6 +6212,6 @@ footer.demo .copyright {
 }
 
 .btn-rd:hover {
-  background: #b8221c; /* Darker red on hover */
+  background: #da2c23; /* Darker red on hover */
   transform: translateY(-2px); /* Slight lift effect */
 }
